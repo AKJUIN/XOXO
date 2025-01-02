@@ -16,8 +16,8 @@ def calculate_rating_distribution(total_points: int, num_ratings: int):
 
 if __name__ == "__main__":
     try:
-        total_points = int(input("Enter the total number of points:29"))
-        num_ratings = int(input("Enter the number of ratings:7"))
+        total_points = int(input("Enter the total number of points:"))
+        num_ratings = int(input("Enter the number of ratings:"))
         calculate_rating_distribution(total_points, num_ratings)
     except ValueError as e:
         print("Error:", e)
